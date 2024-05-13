@@ -1,4 +1,12 @@
 
+/*
+ * 3. Escribir un programa java, capaz de dividir un array de 10 elementos que se introducen 
+desde teclado, entre 10 números aleatorios. Deberemos controlar las siguientes excepciones: 
+a. Array más allá de su rango. 
+b. Imposibilidad de introducir caracteres no numéricos. 
+c. Posible división entre valor 0.
+ */
+
 public class Main {
 
 	public static void main(String[] args) {

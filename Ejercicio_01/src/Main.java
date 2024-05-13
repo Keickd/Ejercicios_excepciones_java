@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/*
+ * 1. Hacer un programa que resuelva la división entre 0, con dividendo y divisor introducidos 
+desde teclado.  
+ */
+
 public class Main {
 	
 	public static void main(String[] args) {

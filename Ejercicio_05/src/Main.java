@@ -1,6 +1,15 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+
+/*
+ * 5. Escribir el código de un programa en el cual se defina un bloque try y dos manejadores catch, de 
+forma que cuando  se genere la excepción que es capturada por el catch descrito, pero que 
+posteriormente a mostrarnos la excepción nos vuelva al código hasta que se introduzcan los 
+datos sin errores. 
+Escribir un programa en el que se genere la excepción del ejercicio anterior y se capture. 
+ */
+
 public class Main {
 
 	public static void main(String[] args) {

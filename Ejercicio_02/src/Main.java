@@ -1,4 +1,8 @@
 
+/*
+ * 2. Resolver la ecuación de segundo grado ax2 + bx +c = 0. Sabiendo que si a = 0 no se puede 
+hacer y si el discriminante es negativo (b2 < 4ac)  tampoco. 
+ */
 
 public class Main {
 	
@@ -11,9 +15,9 @@ public class Main {
 			
 			//double[] res = sg.calcularEcuacionSegundoGrado(0, 2, 1); //a = 0
 			
-			double[] res = sg.calcularEcuacionSegundoGrado(4, 2, 2); //discrimnate negativo
+			//double[] res = sg.calcularEcuacionSegundoGrado(4, 2, 2); //discrimnate negativo
 			
-			
+			double[] res = sg.calcularEcuacionSegundoGrado(1, 1, 1); 
 			
 			System.out.println("Los resultados son " + res[0] + " y " + res[1] + ".");
 		} catch (ArithmeticException e) {
